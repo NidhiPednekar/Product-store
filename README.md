@@ -54,21 +54,7 @@ npm run dev
 #### MongoDB
 - Make sure MongoDB is running locally, or use Docker Compose as below.
 
-### Using Docker Compose
-```bash
-docker-compose up --build
-```
-- The backend will be available at `http://localhost:5005`
-- The frontend will be available at `http://localhost:5173`
-- MongoDB will run on port `27017`
 
-### Running Tests
-```bash
-cd backend
-npm test
-cd ../frontend
-npm test
-```
 
 
 
